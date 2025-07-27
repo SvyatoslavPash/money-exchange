@@ -18,7 +18,7 @@ public class Main {
 
         String result = convertCurrency(valueSum, choiceType);
         int dotIndex = result.indexOf(".");
-        String finalyResult = result.substring(0, dotIndex + 3);
+        String finalyResult = result.substring(0, dotIndex + 2);
         System.out.println("По текущему курсу сумма составит: " + finalyResult);
         start();
     }
